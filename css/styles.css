@@ -1,0 +1,67 @@
+body {
+  font-size: 16px;
+  font-family: "Comic Neue", cursive;
+}
+
+/* HEADER */
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  margin-bottom: 20px;
+}
+
+.navbar-brand h1 { /* name */
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/* menu */
+
+.menu-tile {
+  background-color: gray;
+  padding: 0 15px 0;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1,8em;
+}
+
+h3 {
+  font-weight: bold;
+}
